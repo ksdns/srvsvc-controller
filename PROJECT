@@ -1,0 +1,9 @@
+domain: ksdns.io
+layout:
+- go.kubebuilder.io/v4-alpha
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: srvsvc-controller
+repo: github.com/ksdns/srvsvc-controller
+version: "3"
