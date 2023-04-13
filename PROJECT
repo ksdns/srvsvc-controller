@@ -6,4 +6,9 @@ plugins:
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: srvsvc-controller
 repo: github.com/ksdns/srvsvc-controller
+resources:
+- controller: true
+  domain: ksdns.io
+  kind: Service
+  version: v1
 version: "3"
